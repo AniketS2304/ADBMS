@@ -20,7 +20,6 @@ const ItemSchema = new mongoose.Schema({
         required: true // URL to the image
     }
 });
-
 // Create the Item model
 const Item = mongoose.model('Item', ItemSchema);
 

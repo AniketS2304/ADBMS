@@ -5,7 +5,6 @@ import Home from './components/Home';
 import LoginForm from './components/Loginform';
 import SignupForm from './components/SignUpfrom';
 import FoodItemsPage from './components/FoodItemPage'; // Import the food items page
-import Navbar from './components/Navbar'
 const App = () => {
   return (
     <Router>
