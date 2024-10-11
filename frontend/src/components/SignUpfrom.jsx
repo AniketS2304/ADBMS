@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate ,Link } from 'react-router-dom';
 import Navbar from './Navbar'
 
 const SignupForm = () => {
@@ -105,6 +105,10 @@ const SignupForm = () => {
         >
           Sign Up
         </button>
+        <p className="text-gray-600 text-center mt-4">
+          Already have an account? <Link to="/login" className="text-blue-600">Login up</Link>
+        </p>
+
       </form>
     </div>
     </>

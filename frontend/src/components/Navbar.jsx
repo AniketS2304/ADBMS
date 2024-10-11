@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center bg-orange-600 text-white h-16 shadow-md p-4 sticky'>
+    <nav className=' navbar flex justify-between items-center bg-orange-600 text-white h-16 shadow-md p-4 sticky'>
       <div className="nav-header text-3xl font-bold bg-white text-orange-600 rounded-md py-2 px-4 transition duration-300 hover:shadow-lg">
         Swiggy
       </div>

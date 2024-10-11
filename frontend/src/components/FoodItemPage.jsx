@@ -129,7 +129,7 @@ const FoodItemPage = () => {
                                 <img src={item.image} alt={item.name} className="w-full h-32 object-cover rounded-md mb-4" />
                                 <h2 className="text-xl font-semibold text-gray-800">{item.name}</h2>
                                 <p className="text-gray-600">{item.description}</p>
-                                <p className="text-lg font-bold text-gray-900">{item.price}</p>
+                                <p className="text-lg font-bold text-gray-900">Rs. {item.price}</p>
                                 <button
                                     onClick={() => handleEditClick(item)}
                                     className="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition"

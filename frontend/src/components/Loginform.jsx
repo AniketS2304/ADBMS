@@ -82,7 +82,7 @@ const LoginForm = () => {
  
         {/* Add the "Don't have an account" message and link */}
         <p className="text-gray-600 text-center mt-4">
-          Don't have an account? <Link to="/signup" className="text-black">Sign up</Link>
+          Don't have an account? <Link to="/signup" className="text-blue-600">Sign up</Link>
         </p>
 
       </form>
